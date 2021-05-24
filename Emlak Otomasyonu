@@ -1074,7 +1074,7 @@ void cokfiltreleme(){
 	
 		if(secim[j]==4){
 			printf("\n\t\tKonut arsa durumu giriniz(Satilik/Kira) : ");
-			gets(arsadurum);	
+			scanf("%s",arsadurum);	
 		}
 		if(secim[j]==5){
 			printf("\n\t\tKonut arsa bilgisini giriniz(Apartman/Dukkan/Mustakil) : ");
